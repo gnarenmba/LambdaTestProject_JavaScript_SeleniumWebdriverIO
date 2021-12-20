@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639864353486' stop='1639864355531'>
+    <name>Lambdatest Demo Test</name>
+    <title>Lambdatest Demo Test</title>
+    <test-cases>
+        <test-case start='1639864353487' status='failed' stop='1639864354672'>
+            <name>Lambdatest Demo TestCase</name>
+            <title>Lambdatest Demo TestCase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639864353491' status='failed' stop='1639864354671'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1639864353500' status='failed' stop='1639864354671'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='d9e98bcf-811b-4c51-854b-f6d864664b60-attachment.json' type='application/json' size='57'/>
+                            </attachments>
+                            <steps>
+                                <step start='1639864353507' status='failed' stop='1639864354671'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='44f3887b-ed8f-43b8-87b6-419c96c58d9f-attachment.json' type='application/json' size='57'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1639864353509' status='failed' stop='1639864354671'>
+                                            <name>POST /session/:sessionId/element</name>
+                                            <title>POST /session/:sessionId/element</title>
+                                            <attachments>
+                                                <attachment title='Request' source='6fa0d1e6-6a51-4f73-a5fb-21308272137d-attachment.json' type='application/json' size='59'/>
+                                            </attachments>
+                                            <steps>
+                                                <step start='1639864353512' status='passed' stop='1639864354162'>
+                                                    <name>GET /session/:sessionId/screenshot</name>
+                                                    <title>GET /session/:sessionId/screenshot</title>
+                                                    <attachments>
+                                                        <attachment title='Response' source='acd62f82-cc41-49b7-b24a-f9a615f17fa8-attachment.json' type='application/json' size='2009'/>
+                                                    </attachments>
+                                                    <steps>
+                                                        <step start='1639864353517' status='passed' stop='1639864353959'>
+                                                            <name>POST /session/:sessionId/url</name>
+                                                            <title>POST /session/:sessionId/url</title>
+                                                            <attachments>
+                                                                <attachment title='Request' source='64f2eaf5-28c4-442a-917a-c7440b1271f8-attachment.json' type='application/json' size='60'/>
+                                                            </attachments>
+                                                            <steps/>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                                <step start='1639864354195' status='passed' stop='1639864354447'>
+                                                    <name>POST /session/:sessionId/elements</name>
+                                                    <title>POST /session/:sessionId/elements</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='ed9e1ddf-0634-4115-b6ff-d752a0c4e676-attachment.json' type='application/json' size='57'/>
+                                                        <attachment title='Screenshot' source='809e135f-70f3-4b36-9106-1ec473463948-attachment.png' type='image/png' size='6618'/>
+                                                    </attachments>
+                                                    <steps/>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1639864355300' status='passed' stop='1639864355335'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='21de17c7-eefb-4b27-86f3-4e6790e6e0f3-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='a2d9f0e6-8256-489a-b9c1-1bfb1e234ce0-attachment.json' type='application/json' size='2011'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639864355349' status='undefined'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b76721bf-764d-4be0-afaf-7f3f51becf3d-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='0a726fb6-20ff-4986-a8be-6fb2bc1b8a24-attachment.json' type='application/json' size='2009'/>
+            </attachments>
+            <failure>
+                <message>Expected values to be strictly equal:
+                + actual - expected
+                
+                + Promise {
+                +   &lt;pending>
+                + }
+                - 'Sample page - lambdatest.com'      
+                      actual expected
+                      
+                      Promise'Sample [Promise]page {}- lambdatest.com'
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+                + actual - expected
+                
+                + Promise {
+                +   &lt;pending>
+                + }
+                - 'Sample page - lambdatest.com'
+                    at Context.&lt;anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)
+                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)
+                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

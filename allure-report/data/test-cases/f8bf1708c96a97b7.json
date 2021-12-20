@@ -1,0 +1,279 @@
+{
+  "uid" : "f8bf1708c96a97b7",
+  "name" : "Lambdatest Demo TestCase",
+  "fullName" : "Lambdatest Demo Test.Lambdatest Demo TestCase",
+  "historyId" : "d4458da6dc253e9e3633166f17f75bfd",
+  "time" : {
+    "start" : 1639864353487,
+    "stop" : 1639864354672,
+    "duration" : 1185
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'      \n                      actual expected\n                      \n                      Promise'Sample [Promise]page {}- lambdatest.com'\n                      ",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'      \n                      actual expected\n                      \n                      Promise'Sample [Promise]page {}- lambdatest.com'\n                      ",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1639864353491,
+        "stop" : 1639864354671,
+        "duration" : 1180
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1639864353500,
+          "stop" : 1639864354671,
+          "duration" : 1171
+        },
+        "status" : "failed",
+        "statusMessage" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1639864353507,
+            "stop" : 1639864354671,
+            "duration" : 1164
+          },
+          "status" : "failed",
+          "statusMessage" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1639864353509,
+              "stop" : 1639864354671,
+              "duration" : 1162
+            },
+            "status" : "failed",
+            "statusMessage" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+            "steps" : [ {
+              "name" : "GET /session/:sessionId/screenshot",
+              "time" : {
+                "start" : 1639864353512,
+                "stop" : 1639864354162,
+                "duration" : 650
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "POST /session/:sessionId/url",
+                "time" : {
+                  "start" : 1639864353517,
+                  "stop" : 1639864353959,
+                  "duration" : 442
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "51a5a6ac4a7cd9a5",
+                  "name" : "Request",
+                  "source" : "51a5a6ac4a7cd9a5.json",
+                  "type" : "application/json",
+                  "size" : 60
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ {
+                "uid" : "eb5879074eb7f050",
+                "name" : "Response",
+                "source" : "eb5879074eb7f050.json",
+                "type" : "application/json",
+                "size" : 2009
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 1,
+              "attachmentsCount" : 2,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "POST /session/:sessionId/elements",
+              "time" : {
+                "start" : 1639864354195,
+                "stop" : 1639864354447,
+                "duration" : 252
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "30a83a3c24b2ef3e",
+                "name" : "Request",
+                "source" : "30a83a3c24b2ef3e.json",
+                "type" : "application/json",
+                "size" : 57
+              }, {
+                "uid" : "d0d74a7d9d2ffe93",
+                "name" : "Screenshot",
+                "source" : "d0d74a7d9d2ffe93.png",
+                "type" : "image/png",
+                "size" : 6618
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 2,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "56fe924a50d5d11f",
+              "name" : "Request",
+              "source" : "56fe924a50d5d11f.json",
+              "type" : "application/json",
+              "size" : 59
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 3,
+            "attachmentsCount" : 5,
+            "shouldDisplayMessage" : true,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "1206f4e06d608bbf",
+            "name" : "Request",
+            "source" : "1206f4e06d608bbf.json",
+            "type" : "application/json",
+            "size" : 57
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 6,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "1bcd415890065381",
+          "name" : "Request",
+          "source" : "1bcd415890065381.json",
+          "type" : "application/json",
+          "size" : 57
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 5,
+        "attachmentsCount" : 7,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1639864355300,
+        "stop" : 1639864355335,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7c7a60ca22ef8b6",
+        "name" : "Request",
+        "source" : "b7c7a60ca22ef8b6.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "8946a5c2c588ef8c",
+        "name" : "Response",
+        "source" : "8946a5c2c588ef8c.json",
+        "type" : "application/json",
+        "size" : 2011
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1639864355349,
+        "stop" : 0,
+        "duration" : -1639864355349
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5c4daea8f305e3cc",
+        "name" : "Request",
+        "source" : "5c4daea8f305e3cc.json",
+        "type" : "application/json",
+        "size" : 59
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "33c6bb811dbef00d",
+      "name" : "Response",
+      "source" : "33c6bb811dbef00d.json",
+      "type" : "application/json",
+      "size" : 2009
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Lambdatest Demo Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Lambdatest Demo Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Lambdatest Demo TestCase"
+  }, {
+    "name" : "package",
+    "value" : "Lambdatest Demo Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f8bf1708c96a97b7.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

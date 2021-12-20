@@ -1,0 +1,51 @@
+[ {
+  "uid" : "1a0c4e7cf5657a2d",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1639944451021,
+    "stop" : 1639944457021,
+    "duration" : 6000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf59adbfb21dfe4b",
+  "name" : "Lambdatest Demo TestCase",
+  "time" : {
+    "start" : 1639866344279,
+    "stop" : 1639866344708,
+    "duration" : 429
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "631b84e68d2ba356",
+  "name" : "should logout and verify logout alert message",
+  "time" : {
+    "start" : 1639944457022,
+    "stop" : 1639944457061,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae7cbcd1ddb2dc86",
+  "name" : "Verify list items",
+  "time" : {
+    "start" : 1639944451298,
+    "stop" : 1639944451382,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c63d8b505c931241",
+  "name" : "wait for the hidden element to be show",
+  "time" : {
+    "start" : 1639944451164,
+    "stop" : 1639944455237,
+    "duration" : 4073
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

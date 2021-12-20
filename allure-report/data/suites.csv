@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Dec 19 20:07:31 GMT 2021","Sun Dec 19 20:07:37 GMT 2021","6000","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"failed","Sat Dec 18 22:25:44 GMT 2021","Sat Dec 18 22:25:44 GMT 2021","429","","Lambdatest Demo Test","","Lambdatest Demo Test","Lambdatest Demo TestCase","Lambdatest Demo TestCase",""
+"passed","Sun Dec 19 20:07:37 GMT 2021","Sun Dec 19 20:07:37 GMT 2021","39","","My Login application","","My Login application","should logout and verify logout alert message","should logout and verify logout alert message",""
+"passed","Sun Dec 19 20:07:31 GMT 2021","Sun Dec 19 20:07:31 GMT 2021","84","","Main page","","Main page","Verify list items","Verify list items",""
+"failed","Sun Dec 19 20:07:31 GMT 2021","Sun Dec 19 20:07:35 GMT 2021","4073","","Dynamic Loading Page","","Dynamic Loading Page","wait for the hidden element to be show","wait for the hidden element to be show",""

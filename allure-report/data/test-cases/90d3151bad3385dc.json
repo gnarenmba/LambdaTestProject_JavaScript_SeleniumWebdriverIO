@@ -1,0 +1,194 @@
+{
+  "uid" : "90d3151bad3385dc",
+  "name" : "wait for the hidden element to be show",
+  "fullName" : "Dynamic Loading Page.wait for the hidden element to be show",
+  "historyId" : "89e683d73f300139b18ac176d82e14c7",
+  "time" : {
+    "start" : 1639928654852,
+    "stop" : 1639928655525,
+    "duration" : 673
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World!\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned",
+  "statusTrace" : "Error: Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World!\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/dynamic-loading.e2e.js:10:28)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World!\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned",
+    "statusTrace" : "Error: Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World!\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/dynamic-loading.e2e.js:10:28)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639928654860,
+        "stop" : 1639928655525,
+        "duration" : 665
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World!\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/dynamic-loading.e2e.js:10:28)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1639928654867,
+          "stop" : 1639928655525,
+          "duration" : 658
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World!\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/dynamic-loading.e2e.js:10:28)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1639928654870,
+            "stop" : 1639928655525,
+            "duration" : 655
+          },
+          "status" : "failed",
+          "statusMessage" : "Error: Unexpected return from a matcher function.\n                Matcher functions should return an object in the following format:\n                  {message?: string | function, pass: boolean}\n                '{\"actual\": {}, \"expected\": \"Hello World!\", \"message\": [Function anonymous], \"name\": \"toEqual\", \"pass\": {}}' was returned\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/dynamic-loading.e2e.js:10:28)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/url",
+            "time" : {
+              "start" : 1639928654935,
+              "stop" : 1639928655506,
+              "duration" : 571
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "aa64d10af9d4de6c",
+              "name" : "Request",
+              "source" : "aa64d10af9d4de6c.json",
+              "type" : "application/json",
+              "size" : 67
+            }, {
+              "uid" : "5e5477fd9b068a74",
+              "name" : "Screenshot",
+              "source" : "5e5477fd9b068a74.png",
+              "type" : "image/png",
+              "size" : 6618
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "64ce458afbf344df",
+          "name" : "Request",
+          "source" : "64ce458afbf344df.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d3cdd45f57b4bbea",
+        "name" : "Request",
+        "source" : "d3cdd45f57b4bbea.json",
+        "type" : "application/json",
+        "size" : 49
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1639928655573,
+        "stop" : 1639928655590,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13fd9dd271c6cda0",
+        "name" : "Request",
+        "source" : "13fd9dd271c6cda0.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "a2aad83f632738ab",
+        "name" : "Response",
+        "source" : "a2aad83f632738ab.json",
+        "type" : "application/json",
+        "size" : 2006
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "dfbb1192d70fd59d",
+      "name" : "Response",
+      "source" : "dfbb1192d70fd59d.json",
+      "type" : "application/json",
+      "size" : 2001
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "wait for the hidden element to be show"
+  }, {
+    "name" : "package",
+    "value" : "Dynamic Loading Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90d3151bad3385dc.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

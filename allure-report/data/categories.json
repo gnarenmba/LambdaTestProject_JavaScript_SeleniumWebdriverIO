@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'      \n                      actual expected\n                      \n                      Promise'Sample [Promise]page {}- lambdatest.com'\n                      ",
+      "children" : [ {
+        "name" : "Lambdatest Demo TestCase",
+        "uid" : "cf59adbfb21dfe4b",
+        "parentUid" : "208ebf4d0b00ba87f0cd64cf4a20e36e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1639866344279,
+          "stop" : 1639866344708,
+          "duration" : 429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-96.0.4664.110" ]
+      } ],
+      "uid" : "208ebf4d0b00ba87f0cd64cf4a20e36e"
+    }, {
+      "name" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "children" : [ {
+        "name" : "wait for the hidden element to be show",
+        "uid" : "c63d8b505c931241",
+        "parentUid" : "df94dcb86fdca65702f538174e08abca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1639944451164,
+          "stop" : 1639944455237,
+          "duration" : 4073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 33,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-96.0.4664.110" ]
+      } ],
+      "uid" : "df94dcb86fdca65702f538174e08abca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

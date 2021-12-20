@@ -1,0 +1,99 @@
+{
+  "89e683d73f300139b18ac176d82e14c7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c63d8b505c931241",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: \"Hello World!\"\n                Received: {}",
+      "time" : {
+        "start" : 1639944451164,
+        "stop" : 1639944455237,
+        "duration" : 4073
+      }
+    } ]
+  },
+  "3296141cfffa81687669253d98a8b78e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a0c4e7cf5657a2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639944451021,
+        "stop" : 1639944457021,
+        "duration" : 6000
+      }
+    } ]
+  },
+  "53d7ad08fc6d434ebf6ffcf2e52a4933" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae7cbcd1ddb2dc86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639944451298,
+        "stop" : 1639944451382,
+        "duration" : 84
+      }
+    } ]
+  },
+  "d4458da6dc253e9e3633166f17f75bfd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf59adbfb21dfe4b",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'      \n                      actual expected\n                      \n                      Promise'Sample [Promise]page {}- lambdatest.com'\n                      ",
+      "time" : {
+        "start" : 1639866344279,
+        "stop" : 1639866344708,
+        "duration" : 429
+      }
+    } ]
+  },
+  "6ebefcbf202977d8c8e9cf1f2fe39f45" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "631b84e68d2ba356",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639944457022,
+        "stop" : 1639944457061,
+        "duration" : 39
+      }
+    } ]
+  }
+}

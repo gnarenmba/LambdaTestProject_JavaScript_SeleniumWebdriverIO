@@ -1,0 +1,231 @@
+{
+  "uid" : "cf59adbfb21dfe4b",
+  "name" : "Lambdatest Demo TestCase",
+  "fullName" : "Lambdatest Demo Test.Lambdatest Demo TestCase",
+  "historyId" : "d4458da6dc253e9e3633166f17f75bfd",
+  "time" : {
+    "start" : 1639866344279,
+    "stop" : 1639866344708,
+    "duration" : 429
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'      \n                      actual expected\n                      \n                      Promise'Sample [Promise]page {}- lambdatest.com'\n                      ",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'      \n                      actual expected\n                      \n                      Promise'Sample [Promise]page {}- lambdatest.com'\n                      ",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1639866344381,
+        "stop" : 1639866344708,
+        "duration" : 327
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1639866344411,
+          "stop" : 1639866344708,
+          "duration" : 297
+        },
+        "status" : "failed",
+        "statusMessage" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1639866344431,
+            "stop" : 1639866344708,
+            "duration" : 277
+          },
+          "status" : "failed",
+          "statusMessage" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1639866344442,
+              "stop" : 1639866344708,
+              "duration" : 266
+            },
+            "status" : "failed",
+            "statusMessage" : "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'\n                    at Context.<anonymous> (/Users/narengundeboina/Documents/LambdaTestProject/test/specs/myFirstScript.js:10:16)\n                    at Context.executeAsync (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at Context.testFrameworkFnWrapper (/Users/narengundeboina/Documents/LambdaTestProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+            "steps" : [ {
+              "name" : "GET /session/:sessionId/screenshot",
+              "time" : {
+                "start" : 1639866344459,
+                "stop" : 1639866344698,
+                "duration" : 239
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "POST /session/:sessionId/url",
+                "time" : {
+                  "start" : 1639866344473,
+                  "stop" : 1639866344495,
+                  "duration" : 22
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "55ab50f8096b1d5e",
+                  "name" : "Request",
+                  "source" : "55ab50f8096b1d5e.json",
+                  "type" : "application/json",
+                  "size" : 60
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ {
+                "uid" : "7c8c63a3fa91d3ae",
+                "name" : "Screenshot",
+                "source" : "7c8c63a3fa91d3ae.png",
+                "type" : "image/png",
+                "size" : 6618
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 1,
+              "attachmentsCount" : 2,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "48f7d34828fbe1fc",
+              "name" : "Request",
+              "source" : "48f7d34828fbe1fc.json",
+              "type" : "application/json",
+              "size" : 59
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 2,
+            "attachmentsCount" : 3,
+            "shouldDisplayMessage" : true,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "21b75f137c6a53f9",
+            "name" : "Request",
+            "source" : "21b75f137c6a53f9.json",
+            "type" : "application/json",
+            "size" : 57
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "3b581c58b510538d",
+          "name" : "Request",
+          "source" : "3b581c58b510538d.json",
+          "type" : "application/json",
+          "size" : 57
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 5,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Lambdatest Demo Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Lambdatest Demo Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Lambdatest Demo TestCase"
+  }, {
+    "name" : "package",
+    "value" : "Lambdatest Demo Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "29602c070a3adad2",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'      \n                      actual expected\n                      \n                      Promise'Sample [Promise]page {}- lambdatest.com'\n                      ",
+      "time" : {
+        "start" : 1639866310858,
+        "stop" : 1639866313511,
+        "duration" : 2653
+      }
+    }, {
+      "uid" : "f8bf1708c96a97b7",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'      \n                      actual expected\n                      \n                      Promise'Sample [Promise]page {}- lambdatest.com'\n                      ",
+      "time" : {
+        "start" : 1639864353487,
+        "stop" : 1639864354672,
+        "duration" : 1185
+      }
+    }, {
+      "uid" : "c726f629d2711da1",
+      "status" : "failed",
+      "statusDetails" : "Expected values to be strictly equal:\n                + actual - expected\n                \n                + Promise {\n                +   <pending>\n                + }\n                - 'Sample page - lambdatest.com'      \n                      actual expected\n                      \n                      Promise'Sample [Promise]page {}- lambdatest.com'\n                      ",
+      "time" : {
+        "start" : 1639863718737,
+        "stop" : 1639863719923,
+        "duration" : 1186
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cf59adbfb21dfe4b.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
