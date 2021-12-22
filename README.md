@@ -8,4 +8,4 @@ install WebdriverIO CLI (npm i --save-dev @wdio/cli) OR if you have any permissi
 Create a test folder (mkdir -p ./test/specs)
 Create a test script file (touch ./test/specs/myFirstScript.js)
 Verify the wdio test runner (./node_modules/.bin/wdio run wdio.conf.js)
-Running on mac os (./node_modules/.bin/wdio run wdio.conf.js)
+Running on mac os (./node_modules/.bin/wdio run wdio.conf.js
